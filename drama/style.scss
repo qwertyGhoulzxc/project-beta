@@ -1,0 +1,44 @@
+@import "reset.scss";
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+body{
+    background-color: #1f1e1e;
+}
+.genres-2pge{
+
+ 
+    i{
+        font-size: 30px;
+    }
+}
+.none{
+    display: none;
+}
+.container-categories{
+    width: 225px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+.btn{
+    width :100px;
+    height:20px;
+    background: none;
+    border-radius: 20px;
+    border: solid 1px white ;
+}
+.main-categories-container{
+
+    width: 250px;
+    padding:0 25px;
+    border-radius: 30px;
+}
+div.genres-2pge{
+    width:30px;
+}

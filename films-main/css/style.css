@@ -1,0 +1,485 @@
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+img {
+  border-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox],
+[type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: #1f1e1e;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+header {
+  padding: 25px;
+}
+header .flex-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+}
+header .search input {
+  position: relative;
+  outline: none;
+  text-align: center;
+  border-radius: 20px;
+  height: 25px;
+  border: none;
+}
+header .search button {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: none;
+  position: relative;
+  background-color: inherit;
+  left: -29px;
+}
+header .search button:hover {
+  color: blue;
+}
+header .search button i {
+  margin: auto;
+}
+header .logo img {
+  width: 150px;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  margin-top: 30px;
+}
+main .categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1000px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+main .categories .categories-block {
+  width: 200px;
+  height: 230px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin: auto;
+  border-radius: 20px;
+  margin: 0px 10px;
+  background: black;
+  margin-bottom: 50px;
+}
+main .categories .categories-block:hover {
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+main .categories .categories-block .categories-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.modal{
+ position: fixed  ;
+ top:0;
+ width:100%;
+ background: rgba(0, 0, 0, 0.7);
+ height: 100vh;
+ display: flex;
+ align-items: center;
+}
+.none{
+  display: none;
+}
+.container-modal{
+  position: relative;
+  justify-content: flex-end;
+  display: flex;
+  width:60%;
+  height: 50vh;
+  background-color: white;
+  margin:auto;  
+
+background-repeat: no-repeat;
+background-size: contain;
+}
+#btn-cross{
+font-size: 32px;
+margin-top: 15px;
+;margin-right: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-end;
+
+}
+#btn-cross i{
+color: #1f1e1e;
+}
+
+.information{
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+
+  color:rgb(230, 20, 100);
+  
+}
+.img-viev img{
+max-width:350px;
+
+padding: 20px;
+  }
+.flex{
+  display: flex;
+  flex-direction:row-reverse;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+.parent{
+  display: flex;
+  flex-direction: column;
+}
+.btn{
+ 
+  border-radius: 10px;
+  border: none;  background-color: #1f1e1e;
+  width :100px;
+  height:35px;
+  font-size: 22px;
+  color: white;
+  margin-bottom: 40px;
+}
+.btn:hover{
+border: #1f1e1e solid 1px;
+color :black;
+background-color: white;
+  transition: all 0.5s ;
+}
